@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0
+}
+
+.App {
+  font-family: sans-serif;
+  background-color: #b9babd;
+  min-height: 100vh;
+  padding: 10px;
+}
+
+.input-container {
+  width: 98%;
+  position: absolute;
+  top: 90%;
+  border: 1px solid #000;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+.input {
+  width: 100%;
+  padding: 10px;
+  background-color: transparent;
+  border: 0;
+  outline: none;
+}
+
+.button {
+  background-color: transparent;
+  border: 0;
+  outline: none;
+  font-weight: bold;
+}
+
+.chatting-container {
+  display: flex;
+  /* align-items: center; */
+  margin-bottom: 20px;
+}
+
+.profile-container {
+  border: 1px solid #000;
+  height: 35px;
+  width: 35px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  margin-right: 10px;
+}
+.message {
+  background-color: #fff;
+  padding: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+span {
+  font-size: 12px;
+}
+
+.time {
+  font-size: 8px;
+}
+
+.immpresion-container{
+  position: relative;
+  left: 95%;
+  top: 20px;
+  background-color: #e4f7e9;
+  padding:5px;
+  width: 35px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0;
+}
+@media screen and (max-width: 768px) {
+  .input-container{
+    width: 95%;
+  }
+}
+.usersList{
+  background-color: transparent;
+  border: 0;
+  outline: none;
+  font-weight: bold;
+  font-size: 16px;
+}
